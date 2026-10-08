@@ -607,7 +607,7 @@ export function useForms(notify: (s: string) => void) {
                 channel: "Internal note",
                 kind: "note",
                 date: new Date().toISOString(),
-                author: "Toti Gauna",
+                author: "Santiago Valdez",
                 text: received
                   ? `Pago ${p.reference} registrado como recibido: USD ${p.amount}. ${v.note}`
                   : `Compromiso ${p.reference}: ${v.promiseDate}. ${v.promiseText}`,
@@ -847,7 +847,7 @@ export function useForms(notify: (s: string) => void) {
                 v.kind === "incoming"
                   ? s.customers.find((c) => c.id === v.customerId)?.name ||
                     "Cliente"
-                  : "Toti Gauna",
+                  : "Santiago Valdez",
             },
           ],
           customers: s.customers.map((c) =>
@@ -1152,7 +1152,7 @@ export function useForms(notify: (s: string) => void) {
               channel: "Internal note",
               text: `Actividad registrada: ${v.count} remociones. Fuente: ${v.source}`,
               date: `${v.date}T12:00:00Z`,
-              author: "Toti Gauna",
+              author: "Santiago Valdez",
             },
           ],
         })),
