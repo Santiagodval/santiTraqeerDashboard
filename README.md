@@ -8,6 +8,8 @@ Frontend completo de práctica para Customer Success / Client Operations. Diseñ
 
 [Vista móvil](docs/previews/mobile.png)
 
+[Pantalla de inicio animada](docs/previews/launch.png) · [Inicio en móvil](docs/previews/launch-mobile.png)
+
 ## Demo navegable
 
 [Abrir Traqeer Customer Operations](https://santiagodval.github.io/santiTraqeerDashboard/)
@@ -41,6 +43,7 @@ El resultado de producción está en `dist/`. Se puede servir desde cualquier ho
 
 ## Qué incluye
 
+- **Inicio premium:** composición orbital SVG propia, monograma animado, iluminación suave y transición al workspace. El dashboard se carga en un chunk separado; la pantalla espera a que React lo monte. La primera entrada de la sesión tiene una introducción breve que se puede omitir una vez listo; las siguientes son más rápidas. Respeta movimiento reducido y permite reintentar si falla la carga.
 - **Mi workspace:** cola ordenada por riesgo, valor y urgencia; salud de clientes, pagos, escalaciones, protección y CRM.
 - **Clientes / 360°:** contacto oculto por defecto, planes de ejemplo, preferencias, descuento, próximas acciones, actividad, casos, incidentes y pagos.
 - **Tareas:** seis estados, filtros, responsables, relaciones con casos/pagos/prospectos y seguimientos recurrentes sin duplicar sucesores.
@@ -84,6 +87,8 @@ Todos los componentes de interfaz son propios: inputs, selección, calendario, d
 
 ```text
 src/
+  Launch.tsx         Inicio animado, carga diferida y recuperación de carga
+  launch.css         Motion graphics SVG, transición y movimiento reducido
   model.ts           Tipos, reglas, fechas, validación y salud CRM
   seed.ts            Dataset ficticio del assessment
   store.tsx          Persistencia, revisiones, recuperación y auditoría
