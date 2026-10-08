@@ -55,7 +55,7 @@ export const categories = [
   "Preferencia de comunicación",
 ];
 export const owners = [
-  "Toti Gauna",
+  "Santiago Valdez",
   "Revisión de supervisión",
   "Equipo de investigación",
   "Ventas",

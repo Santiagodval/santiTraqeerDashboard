@@ -10,11 +10,13 @@ Frontend completo de práctica para Customer Success / Client Operations. Diseñ
 
 ## Demo navegable
 
-[Abrir Traqeer Customer Operations](https://traqeer-operations-demo.readyperch2.chatgpt.site)
+[Abrir Traqeer Customer Operations](https://santiagodval.github.io/santiTraqeerDashboard/)
 
-La demo está publicada en Sites. El acceso inicial es privado para la cuenta propietaria; habilitar acceso público o compartirla antes de pedir una revisión externa. Los datos son ficticios y cada navegador mantiene su propio localStorage.
+URL pública de GitHub Pages, disponible cuando finalice correctamente el workflow **Deploy GitHub Pages**. Santiago Valdez es el usuario mock. Los datos son ficticios y cada navegador mantiene su propio localStorage.
 
 El enlace también aparece en el [PR #1](https://github.com/Santiagodval/santiTraqeerDashboard/pull/1).
+
+El workflow publica los cambios de `main` y `feat/traqeer-operations`, y admite ejecución manual. GitHub Pages debe usar **GitHub Actions** como fuente. Para publicar la rama del PR antes de fusionarlo, el entorno `github-pages` debe admitir `feat/traqeer-operations` en **Settings → Environments → github-pages → Deployment branches and tags**. El workflow conserva las restricciones del entorno; un administrador debe autorizar esa rama.
 
 ## Ejecutar
 

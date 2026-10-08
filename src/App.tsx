@@ -423,7 +423,7 @@ function Workspace() {
             author:
               draftMode === "incoming"
                 ? customerName(conversation)
-                : "Toti Gauna",
+                : "Santiago Valdez",
             date: `${today}T${new Date().toISOString().slice(11)}`,
           },
         ],
@@ -688,9 +688,9 @@ function Workspace() {
             <span>Datos ficticios · localStorage</span>
           </div>
           <button className="user-menu" onClick={() => go("settings")}>
-            <Avatar name="Toti Gauna" />
+            <Avatar name="Santiago Valdez" />
             <span>
-              <strong>Toti Gauna</strong>
+              <strong>Santiago Valdez</strong>
               <small>
                 {s.config.role === "viewer"
                   ? "Consulta"
@@ -736,7 +736,7 @@ function Workspace() {
               <Icon name="bell" size={21} />
               {alerts.length > 0 && <span />}
             </button>
-            <Avatar name="Toti Gauna" size="small" />
+            <Avatar name="Santiago Valdez" size="small" />
           </div>
         </header>
         {error && (
@@ -755,7 +755,7 @@ function Workspace() {
           <div className="page-heading">
             <div>
               <span className="eyebrow">
-                {view === "overview" ? "HOLA, TOTI" : "CUSTOMER OPERATIONS"}
+                {view === "overview" ? "HOLA, SANTIAGO" : "CUSTOMER OPERATIONS"}
               </span>
               <h1>{titles[view]?.title}</h1>
               <p>{titles[view]?.text}</p>

@@ -141,7 +141,7 @@ export function StoreProvider({ children }: { children: ReactNode }) {
             actor:
               before.config.role === "supervisor"
                 ? "Supervisión · simulada"
-                : "Toti Gauna",
+                : "Santiago Valdez",
             action,
             entity,
             before: diffBefore,
@@ -171,7 +171,7 @@ export function StoreProvider({ children }: { children: ReactNode }) {
         {
           id: uid("AUD"),
           date: new Date().toISOString(),
-          actor: "Toti Gauna",
+          actor: "Santiago Valdez",
           action: "Importación / reinicio confirmado",
           entity: "Workspace",
           before: null,
