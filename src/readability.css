@@ -1,0 +1,688 @@
+/* Product typography and contrast: ink for work, color only for a signal. */
+.profile-name h1,
+.profile-next strong,
+.detail-section h3,
+.detail-title h3,
+.detail-grid dd,
+.detail-section p,
+.detail-case p,
+.detail-case h3,
+.detail-case dd,
+.mini-task strong,
+.timeline-title strong,
+.timeline-item p,
+.playbook-body,
+.playbook-article h2,
+.settings-row strong {
+  color: #40584b !important;
+}
+.detail-grid dt,
+.profile-hero p,
+.profile-next small,
+.profile-next span,
+.timeline-item small,
+.timeline-title time,
+.settings-row p,
+.playbook-checklist p {
+  color: #7c9281 !important;
+}
+.profile-next {
+  background: #edf4ef;
+  border-color: #dce9df;
+}
+.profile-kpis {
+  background: #f8fbf8;
+  border-color: #e2eae2;
+}
+.tabs > button.active {
+  color: #397052;
+  border-color: #397052;
+}
+.detail-grid dt,
+.detail-grid dd {
+  line-height: 1.6;
+}
+.page-heading h1 {
+  font-size: 29px;
+}
+.page-heading p {
+  font-size: 14px;
+  color: #78877f;
+}
+.eyebrow {
+  font-size: 11px;
+}
+.stat-top {
+  font-size: 12px;
+}
+.stat p {
+  font-size: 11px;
+  color: #7b8a81;
+}
+.section-head h2 {
+  font-size: 15px;
+  color: #344a3f;
+}
+.section-head .eyebrow {
+  font-size: 10px;
+}
+.badge {
+  font-size: 11px;
+}
+.today-content strong {
+  font-size: 13px;
+  color: #3e5548;
+}
+.today-content > span {
+  font-size: 11px;
+  color: #7b8e80;
+}
+.today-meta .badge {
+  font-size: 10px;
+}
+.today-meta > span:last-child {
+  font-size: 10px;
+  color: #839384;
+}
+.focus-top > span {
+  font-size: 10px;
+}
+.focus-top .badge {
+  font-size: 10px;
+}
+.focus-person strong {
+  font-size: 14px;
+}
+.focus-person span:not(.avatar) {
+  font-size: 11px;
+}
+.focus-card h3 {
+  font-size: 18px;
+}
+.focus-card p {
+  font-size: 12px;
+  max-width: 440px;
+}
+.focus-bottom > span {
+  font-size: 11px;
+}
+.focus-card .btn {
+  font-size: 12px;
+}
+.activity-value span {
+  font-size: 12px;
+}
+.chart-axis {
+  font-size: 10px;
+  color: #7e8f85;
+}
+.chart-footnote {
+  font-size: 11px;
+  color: #7d8e82;
+}
+.donut-legend > div {
+  font-size: 12px;
+  color: #6f8274;
+}
+.donut-legend strong {
+  font-size: 12px;
+}
+.donut span {
+  font-size: 11px;
+  color: #84978a;
+}
+.panel-footer-link {
+  font-size: 12px;
+  color: #4c785b;
+}
+.bottom-grid .section-head h2 {
+  font-size: 14px;
+}
+.commitment-row strong {
+  font-size: 13px;
+  color: #445e4d;
+}
+.commitment-row small {
+  font-size: 11px;
+  color: #809584;
+}
+.commitment-row .badge {
+  font-size: 10px;
+}
+.quiet-row {
+  font-size: 11px;
+  color: #839685;
+}
+.quiet-row strong {
+  font-size: 12px;
+  color: #536e5a;
+}
+.escalation-preview strong {
+  font-size: 13px;
+  color: #496151;
+}
+.escalation-preview span:not(.priority-line) {
+  font-size: 11px;
+  color: #7a8f7d;
+}
+.escalation-preview small {
+  font-size: 10px;
+  color: #889987;
+}
+.quality-value strong {
+  color: #47664b;
+}
+.quality-value span {
+  font-size: 12px;
+  color: #84917c;
+}
+.quality-tags .badge {
+  font-size: 10px;
+}
+.outreach-ribbon strong {
+  font-size: 13px;
+  color: #456a4d;
+}
+.outreach-ribbon div span {
+  font-size: 12px;
+  color: #78927a;
+}
+.outreach-ribbon .btn {
+  font-size: 12px;
+  color: #4b7653;
+}
+.workspace-footer {
+  font-size: 10px;
+  color: #809681;
+}
+.btn {
+  font-size: 13px;
+}
+.date-chip {
+  font-size: 12px;
+}
+.list-controls input {
+  font-size: 13px;
+}
+.summary-tabs > button:not(.btn) {
+  font-size: 13px;
+}
+.table-scroll td {
+  font-size: 12px;
+  color: #4e6357;
+}
+.table-scroll th {
+  font-size: 10px;
+  color: #7f9383;
+}
+.table-scroll .customer-link strong {
+  font-size: 13px;
+  color: #375340;
+}
+.table-scroll .customer-link small,
+.cell-sub {
+  font-size: 11px;
+  color: #829783;
+}
+.table-scroll .badge {
+  font-size: 10px;
+}
+.cell-action.text-button {
+  color: #42684b;
+  font-size: 13px;
+}
+.table-row-actions .btn {
+  font-size: 11px;
+}
+.table-scroll .select-trigger {
+  font-size: 11px;
+}
+.text-button:hover {
+  color: #225238;
+}
+.custom-select,
+.date-input input,
+.select-trigger {
+  color: #485e50;
+}
+.field > label {
+  font-size: 13px;
+  color: #49604f;
+}
+.field input,
+.field textarea {
+  font-size: 14px;
+  color: #3f5647;
+}
+.form-note {
+  font-size: 12px;
+  color: #6c856d;
+}
+.field small {
+  font-size: 11px;
+  color: #7b917c;
+}
+.select-options > button {
+  font-size: 13px;
+  color: #48644e;
+}
+.date-input input {
+  font-size: 13px;
+}
+.calendar-head strong,
+.calendar-grid > button {
+  color: #47634b;
+}
+.modal-head h2 {
+  font-size: 18px;
+  color: #3d5945;
+}
+.muted {
+  color: #7c8e80;
+}
+.empty h3 {
+  color: #657f68;
+  font-size: 15px;
+}
+.empty p {
+  color: #849986;
+  font-size: 13px;
+}
+.notice {
+  font-size: 12px;
+  color: #647f69;
+}
+.notice.warning {
+  color: #95794b;
+}
+.notice .btn {
+  font-size: 12px;
+}
+.bars .bar-row > div:first-child {
+  color: #758a78;
+  font-size: 13px;
+}
+.bars .bar-row strong {
+  color: #3d6847;
+  font-size: 13px;
+}
+.bar-track span {
+  background: #4b8a6c;
+}
+.policy-row strong {
+  font-size: 13px;
+  color: #4e6b55;
+}
+.policy-row small {
+  font-size: 11px;
+  color: #7e9582;
+}
+.outreach-sequence strong {
+  font-size: 12px;
+  color: #4c6f52;
+}
+.outreach-sequence small {
+  font-size: 11px;
+  color: #839a7f;
+}
+.outreach-sequence > span b {
+  color: #9fb595;
+}
+.finding {
+  font-size: 10px;
+}
+.finding-detail strong {
+  font-size: 12px;
+  color: #536f54;
+}
+.finding-detail small {
+  font-size: 12px;
+  color: #7e947f;
+}
+.review-note {
+  color: #719278;
+}
+.channel-notice {
+  font-size: 11px;
+  color: #7d937d;
+}
+.conversation-person strong {
+  font-size: 13px;
+  color: #3e664b;
+}
+.conversation-person small {
+  font-size: 11px;
+  color: #819581;
+}
+.composer textarea {
+  font-size: 14px;
+  color: #445d4c;
+}
+.composer-controls .select-trigger,
+.composer-followup input {
+  color: #486650;
+  font-size: 13px;
+}
+.composer-footer > span {
+  font-size: 11px;
+  color: #81977f;
+}
+.playbook-menu > button {
+  font-size: 12px;
+  color: #6b856b;
+}
+.playbook-menu > button.active {
+  color: #446949;
+}
+.playbook-article h2 {
+  color: #3b6144;
+}
+.playbook-body {
+  color: #617d62;
+  font-size: 16px;
+}
+.playbook-checklist h3 {
+  color: #59785c;
+  font-size: 14px;
+}
+.playbook-checklist p {
+  color: #748d73;
+  font-size: 13px;
+}
+.settings-row strong {
+  color: #506c54;
+  font-size: 13px;
+}
+.settings-row p {
+  color: #7c9179;
+  font-size: 12px;
+}
+.settings-layout .muted {
+  font-size: 14px;
+}
+.integration-row {
+  color: #799176;
+  font-size: 13px;
+}
+.settings-row > .date-picker,
+.settings-row > .custom-select {
+  width: 190px;
+}
+.command-result strong {
+  font-size: 14px;
+  color: #456347;
+}
+.command-result small {
+  color: #8a9f81;
+  font-size: 12px;
+}
+.command-search input {
+  color: #476d4c;
+}
+.alert-list strong {
+  color: #496448;
+  font-size: 14px;
+}
+.alert-list small {
+  color: #889c7e;
+  font-size: 12px;
+}
+.confirm-body > p {
+  color: #6f8a61;
+  font-size: 15px;
+}
+.toast {
+  color: #446b4a;
+  font-size: 13px;
+}
+.audit-diff h3 {
+  color: #718d66;
+  font-size: 13px;
+}
+.audit-diff pre {
+  color: #567952;
+  font-size: 11px;
+}
+.profile-name h1 {
+  color: #375c3d;
+}
+.profile-hero p {
+  color: #839c7c;
+  font-size: 12px;
+}
+.profile-next span {
+  color: #849b78;
+  font-size: 11px;
+}
+.profile-next strong {
+  color: #4d7246;
+  font-size: 14px;
+}
+.profile-next small {
+  color: #7e9b6e;
+  font-size: 12px;
+}
+.tabs > button {
+  font-size: 13px;
+  color: #819e6d;
+}
+.tabs > button.active {
+  color: #547e47;
+  border-color: #547e47;
+}
+.profile-kpis span {
+  font-size: 11px;
+  color: #8aa478;
+}
+.profile-kpis strong {
+  color: #5b8249;
+}
+.detail-section h3,
+.detail-title h3 {
+  font-size: 14px;
+  color: #52774a;
+}
+.detail-grid dt {
+  color: #849c79;
+  font-size: 11px;
+}
+.detail-grid dd {
+  color: #5d8051;
+  font-size: 14px;
+}
+.detail-section p,
+.detail-case p {
+  font-size: 14px;
+  color: #738f65;
+}
+.mini-task strong {
+  font-size: 13px;
+  color: #617f52;
+}
+.mini-task small {
+  font-size: 11px;
+  color: #8ca778;
+}
+.detail-case h3 {
+  font-size: 15px;
+  color: #587e46;
+}
+.detail-case dt {
+  font-size: 11px;
+  color: #8eaa78;
+}
+.detail-case dd {
+  font-size: 13px;
+  color: #709455;
+}
+.detail-case blockquote {
+  color: #769a5a;
+  font-size: 13px;
+}
+.protection-total span {
+  font-size: 12px;
+  color: #88a66e;
+}
+.protection-total strong {
+  color: #628a49;
+}
+.protection-total p,
+.evidence-link {
+  font-size: 12px;
+  color: #83a366;
+}
+.timeline-title strong {
+  font-size: 13px;
+  color: #5c8346;
+}
+.timeline-item p {
+  font-size: 14px;
+  color: #739853;
+}
+.timeline-item small {
+  font-size: 11px;
+  color: #90ad71;
+}
+.timeline-title time {
+  font-size: 11px;
+  color: #93ab7d;
+}
+.conversation-case-links {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-top: 16px;
+  border-top: 1px solid #e9eedf;
+}
+.conversation-case-links > span {
+  font-size: 11px;
+  color: #91a779;
+  margin-right: auto;
+}
+.conversation-case-links .btn {
+  font-size: 11px;
+}
+.table-scroll:has(.select-options) {
+  padding-bottom: 3px;
+}
+.select-options {
+  box-shadow: 0 10px 40px #28433026;
+}
+@media (max-width: 1250px) {
+  .page-heading h1 {
+    font-size: 25px;
+  }
+  .stat-top {
+    font-size: 11px;
+  }
+  .stat p {
+    font-size: 10px;
+  }
+  .section-head h2 {
+    font-size: 14px;
+  }
+  .focus-card h3 {
+    font-size: 16px;
+  }
+  .today-content strong {
+    font-size: 12px;
+  }
+  .bottom-grid .section-head h2 {
+    font-size: 12px;
+  }
+  .quality-tags .badge {
+    font-size: 9px;
+  }
+  .settings-row > .date-picker,
+  .settings-row > .custom-select {
+    width: 180px;
+  }
+  .overview-right .donut-legend > div {
+    font-size: 11px;
+  }
+}
+@media (max-width: 600px) {
+  .page-heading h1 {
+    font-size: 25px;
+  }
+  .page-heading p {
+    font-size: 13px;
+  }
+  .heading-actions .btn {
+    font-size: 12px;
+  }
+  .date-chip {
+    font-size: 10px;
+  }
+  .stat-top {
+    font-size: 11px;
+  }
+  .stat p {
+    font-size: 10px;
+  }
+  .focus-card h3 {
+    font-size: 17px;
+  }
+  .focus-card p {
+    font-size: 12px;
+  }
+  .focus-person strong {
+    font-size: 13px;
+  }
+  .today-content strong {
+    font-size: 12px;
+  }
+  .today-content > span {
+    font-size: 10px;
+  }
+  .today-meta > span:last-child {
+    font-size: 10px;
+  }
+  .today-meta {
+    max-width: 65px;
+  }
+  .overview-right .donut-legend > div {
+    font-size: 12px;
+  }
+  .bottom-grid .section-head h2 {
+    font-size: 14px;
+  }
+  .outreach-ribbon div span {
+    font-size: 11px;
+  }
+  .settings-row > .date-picker,
+  .settings-row > .custom-select {
+    width: 160px;
+  }
+  .settings-row p {
+    font-size: 11px;
+  }
+  .settings-row strong {
+    font-size: 12px;
+  }
+  .tabs > button {
+    font-size: 12px;
+  }
+  .profile-kpis span {
+    font-size: 10px;
+  }
+  .modal-head h2 {
+    font-size: 16px;
+  }
+  .timeline-item p {
+    font-size: 13px;
+  }
+  .workspace-footer {
+    font-size: 10px;
+  }
+  .outreach-sequence strong {
+    font-size: 11px;
+  }
+  .outreach-sequence small {
+    font-size: 10px;
+  }
+  .composer-footer > span {
+    font-size: 11px;
+  }
+}
