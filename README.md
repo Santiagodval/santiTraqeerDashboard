@@ -8,6 +8,14 @@ Frontend completo de práctica para Customer Success / Client Operations. Diseñ
 
 [Vista móvil](docs/previews/mobile.png)
 
+## Demo navegable
+
+[Abrir Traqeer Customer Operations](https://traqeer-operations-demo.readyperch2.chatgpt.site)
+
+La demo está publicada en Sites. El acceso inicial es privado para la cuenta propietaria; habilitar acceso público o compartirla antes de pedir una revisión externa. Los datos son ficticios y cada navegador mantiene su propio localStorage.
+
+El enlace también aparece en el [PR #1](https://github.com/Santiagodval/santiTraqeerDashboard/pull/1).
+
 ## Ejecutar
 
 Requiere Node.js 22.12+ o 24 y npm.
